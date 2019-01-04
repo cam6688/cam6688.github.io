@@ -1,0 +1,84 @@
+body {
+    background-color: #ffe6e6;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%
+}
+
+video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+}
+
+@font-face {
+    font-family: bromello;
+    src: url(https://cam6688.github.io/Portfolio/bromello.ttf);
+}
+
+@font-face {
+	font-family: Shoreline;
+	src: url(https://cam6688.github.io/Portfolio/Shorelines_Script_Bold.otf);
+}
+
+@font-face {
+	font-family: Moonflowerbold;
+	src: url(https://cam6688.github.io/Portfolio/MoonFlowerBold.ttf);
+}
+
+@font-face {
+	font-family: Sweetpea;
+	src: url(https://cam6688.github.io/Portfolio/Sweet_Pea_2.ttf);
+}
+
+h1 {
+    	color: #ffb3b3;
+    	text-align: center;
+	font-family: Shoreline;
+	font-size: 48px;
+}
+
+h2 {
+ 	color: #FFb3b3;
+	font-family: bromello;
+	font-size: 50px;
+}
+
+p {
+    font-family: Moonflowerbold;
+    font-size: 30px;
+    border: 10px dotted powderblue;
+	padding: 20px;"
+}
+
+li {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AE2A2A;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-family: Moonflowerbold;
+	font-size: 25px;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ff5050;
+}
