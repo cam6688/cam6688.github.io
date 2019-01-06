@@ -21,24 +21,9 @@ video {
     src: url(https://cam6688.github.io/Portfolio/bromello.ttf);
 }
 
-@font-face {
-	font-family: Shoreline;
-	src: url(https://cam6688.github.io/Portfolio/Shorelines_Script_Bold.otf);
-}
-
-@font-face {
-	font-family: Moonflowerbold;
-	src: url(https://cam6688.github.io/Portfolio/MoonFlowerBold.ttf);
-}
-
-@font-face {
-	font-family: Sweetpea;
-	src: url(https://cam6688.github.io/Portfolio/Sweet_Pea_2.ttf);
-}
-
 h1 {
-    	color: #ffb3b3;
-    	text-align: center;
+	color: #ffb3b3;
+	text-align: center;
 	font-family: Shoreline;
 	font-size: 48px;
 }
