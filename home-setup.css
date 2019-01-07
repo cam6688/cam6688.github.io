@@ -1,12 +1,12 @@
 body {
-    background-color: #ffe6e6;
+    background-color: #f9f9f9;
 }
 
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 25%
+	width: 50%
 }
 
 video {
@@ -22,14 +22,14 @@ video {
 }
 
 h1 {
-	color: #ffb3b3;
+	color: #404040;
 	text-align: center;
 	font-family: Shoreline;
 	font-size: 48px;
 }
 
 h2 {
- 	color: #FFb3b3;
+ 	color: #404040;
 	font-family: bromello;
 	font-size: 50px;
 }
@@ -37,8 +37,9 @@ h2 {
 p {
     font-family: Moonflowerbold;
     font-size: 30px;
-    border: 10px dotted powderblue;
-	padding: 20px;"
+    border: 10px powderblue;
+    padding: 20px;"
+    color: #404040
 }
 
 li {
@@ -50,14 +51,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #AE2A2A;
+    background-color: #999999;
 }
 
 li a {
     display: block;
     color: white;
     font-family: Moonflowerbold;
-	font-size: 25px;
+    font-size: 25px;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
