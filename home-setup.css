@@ -46,7 +46,7 @@ p {
     padding: 20px;
     color: #404040;
     display: block;
-    width: 50%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -65,17 +65,17 @@ ul {
 
 li a {
     display: block;
-    color: white;
-    font-family: Moonflowerbold;
-    font-size: 25px;
+    color: #f9f9f9;
+    font-family: aileron;
+    font-size: 15px;
     text-align: center;
-    padding: 20px 16px;
+    padding: 15px 10px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #ff5050;
+    background-color: #404040;
 }
 
 #DIV_1 {
