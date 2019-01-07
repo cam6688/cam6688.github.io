@@ -21,6 +21,11 @@ video {
     src: url(https://cam6688.github.io/college-portfolio/Butler_Black.otf);
 }
 
+@font-face {
+  font-family: aileron;
+  src: url(https://cam6688.github.io/college-portfolio/Aileron-Regular.ttf);
+}
+
 h1 {
 	color: #404040;
 	text-align: center;
@@ -36,7 +41,7 @@ h2 {
 }
 
 p {
-    font-family: Moonflowerbold;
+    font-family: aileron;
     font-size: 30px;
     border: 10px powderblue;
     padding: 20px;
