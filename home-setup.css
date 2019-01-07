@@ -52,15 +52,17 @@ p {
 }
 
 li {
-    float: right;
+    float: center;
+    font-family: aileron;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     overflow: hidden;
     background-color: #999999;
+    font-family: aileron;
 }
 
 li a {
