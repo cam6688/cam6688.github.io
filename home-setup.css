@@ -53,7 +53,6 @@ p {
 
 li {
     float: center;
-    font-family: aileron;
 }
 
 ul {
@@ -92,4 +91,9 @@ li a:hover {
     background-image: url(me-photo.jpg);
     zoom:1.1;
     background-size:cover;
+}
+
+#text {
+  background: #999999;
+  opacity: 80;
 }
