@@ -61,7 +61,7 @@ ul {
     padding: 15px;
     overflow: hidden;
     background-color: #999999;
-    font-family: aileron;
+    position: fixed;
 }
 
 li a {
@@ -74,7 +74,7 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color on hover */
 li a:hover {
     background-color: #404040;
 }
