@@ -17,28 +17,29 @@ video {
 }
 
 @font-face {
-    font-family: bromello;
-    src: url(https://cam6688.github.io/Portfolio/bromello.ttf);
+    font-family: butler;
+    src: url(https://cam6688.github.io/college-portfolio/Butler_Black.otf);
 }
 
 h1 {
 	color: #404040;
 	text-align: center;
-	font-family: Shoreline;
-	font-size: 48px;
+	font-family: butler;
+	font-size: 50px;
 }
 
 h2 {
  	color: #404040;
 	font-family: bromello;
 	font-size: 50px;
+  text-align: center;
 }
 
 p {
     font-family: Moonflowerbold;
     font-size: 30px;
     border: 10px powderblue;
-    padding: 20px;"
+    padding: 20px;
     color: #404040
 }
 
@@ -49,7 +50,7 @@ li {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
     background-color: #999999;
 }
