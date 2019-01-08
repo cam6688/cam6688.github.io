@@ -1,5 +1,6 @@
 body {
     background-color: #f9f9f9;
+    margin:0;
 }
 
 img {
@@ -62,6 +63,9 @@ ul {
     overflow: hidden;
     background-color: #999999;
     position: fixed;
+    opacity: 75;
+    top: 0;
+    width: 100%;
 }
 
 li a {
