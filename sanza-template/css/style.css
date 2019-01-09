@@ -763,8 +763,8 @@ font-size: 11px;
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
 	color: #fff;
-	background-color: #fec503;
-	border-color: #f6bf01;
+	background-color: #ccccff;
+	border-color: #b3b3ff;
   opacity: 75%;
 }
 
@@ -788,12 +788,13 @@ font-size: 11px;
 	background-image: none;
 	border: 1px solid transparent;
 	border-radius: 4px;
-	background-color: #23AD21;
+	background-color: #00004d;
+  opacity: 75%;
 }
 
 .btn-xl {
 color: #fff;
-    background-color: #23AD21;
+    background-color: #00004d;
     /* border-color: #726FB9; */
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
