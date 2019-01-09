@@ -765,6 +765,7 @@ font-size: 11px;
 	color: #fff;
 	background-color: #fec503;
 	border-color: #f6bf01;
+  opacity: 75%;
 }
 
 .btn {
@@ -801,6 +802,7 @@ color: #fff;
     letter-spacing: 2px;
     font-size: 16px;
     padding: 17px 45px;
+    opacity: 75%;
 }
 
 /* Back to top button
