@@ -243,7 +243,7 @@ header .intro-text {
 
 @media (min-width: 768px) {
 	header .intro-text {
-		padding-top: 50px;
+		padding-top: 75px;
 		padding-bottom: 400px;
     }
 }
@@ -258,7 +258,7 @@ header .intro-text .intro-lead-in {
 	color: #3E3E3E;
 	font-weight: 300;
 	line-height: 40px;
-  padding-top:100px;
+  padding-top 75px;
 }
 
 @media (min-width: 768px) {
