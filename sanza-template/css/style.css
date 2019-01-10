@@ -747,7 +747,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #ccccff;
 	margin-right: 15px;
 	padding: 5px 10px;
 }
@@ -758,8 +758,8 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	color: #fff;
-	background-color: #fec503;
-	border-color: #f6bf01;
+	background-color: #ccccff;
+	border-color: #b3b3ff;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
