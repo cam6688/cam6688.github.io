@@ -314,7 +314,7 @@ header .intro-text .intro-heading {
 	margin-left: -20px;
 	text-align: center;
 	position: absolute;
-	background: #23AD21;
+	background: #00004d;
 }
 
 .dark-bg .section-title h2 {
@@ -360,7 +360,7 @@ header .intro-text .intro-heading {
 	color: #FFFFFF;
 	/* border: 3px solid #000; */
 	border-radius: 100px;
-	background-color: #23AD21;
+	background-color: #00004d;
 	margin: 0 2px 4px;
 	font-size: 24px;
 }
@@ -747,7 +747,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #ccccff;
+	background-color: #00004d;
 	margin-right: 15px;
 	padding: 5px 10px;
 }
