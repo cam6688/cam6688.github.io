@@ -758,14 +758,14 @@ font-size: 11px;
 
 .btn-xl:hover, .btn-xl:focus, .btn-xl:active, .btn-xl.active, .open .dropdown-toggle.btn-xl {
 	color: #fff;
-	background-color: #9686ab;
-	border-color: #9686ab;
+	background-color: #e68785;
+	border-color: #e68785;
 }
 
 .btn:hover, .btn:focus, .btn:active, .btn.active, .open .dropdown-toggle.btn {
 	color: #fff;
-	background-color: #9686ab;
-	border-color: #9686ab;
+	background-color: #e68785;
+	border-color: #e68785;
   opacity: 75;
 }
 
