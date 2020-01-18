@@ -241,7 +241,7 @@ header .intro-text {
 	/*padding-bottom: 50px;*/
 }
 
-@media (min-width: 250px) {
+@media (min-width: 768px) {
 	header .intro-text {
 		padding-top: 75px;
 		padding-bottom: 400px;
@@ -261,7 +261,7 @@ header .intro-text .intro-lead-in {
   padding-top 75px;
 }
 
-@media (min-width: 250px) {
+@media (min-width: 768px) {
 	header .intro-text .intro-lead-in {
     font-size: 29px;
     line-height: 40px;
@@ -279,9 +279,10 @@ header .intro-text .intro-heading {
 	word-spacing: 10px;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  min-width: 250px;
 }
 
-@media (min-width: 250px) {
+@media (min-width: 768px) {
 	header .intro-text .intro-heading {
 		line-height: 95px;
 		font-size: 77px;
