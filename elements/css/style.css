@@ -76,7 +76,7 @@ color: #B1B1B1;
 }
 
 a:hover, a:focus, a:active, a.active {
-	color: #fec503;
+	color: #ffb3a7;
 }
 a, a:hover, a:focus, a:active, a.active {
 	outline: 0;
@@ -152,7 +152,7 @@ section ul li:before {
 	padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #fec503
+	color: #ffb3a7
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
@@ -241,7 +241,7 @@ header .intro-text {
 	/*padding-bottom: 50px;*/
 }
 
-@media (min-width: 768px) {
+@media (min-width: 250px) {
 	header .intro-text {
 		padding-top: 75px;
 		padding-bottom: 400px;
@@ -261,7 +261,7 @@ header .intro-text .intro-lead-in {
   padding-top 75px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 250px) {
 	header .intro-text .intro-lead-in {
     font-size: 29px;
     line-height: 40px;
@@ -281,7 +281,7 @@ header .intro-text .intro-heading {
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 250px) {
 	header .intro-text .intro-heading {
 		line-height: 95px;
 		font-size: 77px;
