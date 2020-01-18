@@ -238,6 +238,7 @@ header {
 
 header .intro-text {
 	padding-top: 50px;
+  max-width: 250px;
 	/*padding-bottom: 50px;*/
 }
 
@@ -279,7 +280,6 @@ header .intro-text .intro-heading {
 	word-spacing: 10px;
 	color: #FFFFFF;
 	text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  width: 250px;
 }
 
 @media (min-width: 768px) {
