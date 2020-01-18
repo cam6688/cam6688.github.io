@@ -265,7 +265,7 @@ header .intro-text .intro-lead-in {
 	header .intro-text .intro-lead-in {
     font-size: 29px;
     line-height: 40px;
-    margin-bottom: 45px;
+    /*margin-bottom: 45px;*/
 	}
 }
 
@@ -274,11 +274,11 @@ header .intro-text .intro-heading {
 	font-weight: 900;
 	font-size: 40px;
 	line-height: 48px;
-	margin-bottom: 25px;
+	/*margin-bottom: 25px;*/
 	letter-spacing: -3px;
 	word-spacing: 10px;
 	color: #FFFFFF;
-	text-shadow: 1px 1px 1px rgb(0, 0, 0);
+	/*text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
 }
 
 @media (min-width: 768px) {
@@ -802,9 +802,10 @@ font-size: 11px;
     font-weight: 800;
     border-radius: 0;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 16vw;
     padding: 17px 45px;
     opacity: 75;
+    width: 50%;
 }
 
 btn-x1 only screen
