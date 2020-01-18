@@ -806,7 +806,7 @@ font-size: 11px;
     font-size: 16px;
     padding: 17px 45px;
     opacity: 75;
-    width: 75%;
+    max-width: 75%;
 }
 
 /* Back to top button
