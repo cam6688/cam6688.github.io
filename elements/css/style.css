@@ -797,15 +797,16 @@ font-size: 11px;
     color: #fff;
     background-color: #ff6461;
     /* border-color: #726FB9; */
+    display: inline-block;
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
     font-weight: 800;
     border-radius: 0;
     letter-spacing: 2px;
-    font-size: 5vw;
+    font-size: 16px;
     padding: 17px 45px;
     opacity: 75;
-    width: 50%;
+    width: 75%;
 }
 
 btn-x1 only screen
