@@ -36,10 +36,7 @@ Import Google Fonts
     src: url(https://cam6688.github.io/Butler_Black.otf);
 }
 
-@font-face {
-  font-family: aileron;
-  src: url(https://cam6688.github.io/Aileron-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Sanchez&display=swap');
 
 /*--------------------
 1. General
@@ -55,7 +52,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 { /*obsolete*/
 	font-weight: 300;
 	letter-spacing: 0.4px;
 	font-family: "Open Sans", Sans-serif;
@@ -63,7 +60,7 @@ h6 {
 }
 
 p {
-	font-family: aileron;
+	font-family: "Catamaran";
 	font-size: 15px;
 	font-weight: 300;
 	line-height: 23px;
@@ -238,54 +235,27 @@ header {
 
 header .intro-text {
 	padding-top: 50px;
-	/*padding-bottom: 50px;*/
-}
-
-@media (min-width: 768px) {
-	header .intro-text {
-		padding-top: 75px;
-		padding-bottom: 400px;
-    }
-}
-
-header .intro-text .intro-lead-in {
-	display: inline-block;
-	background-color: rgba(255, 255, 255, 0.65);
-	margin-bottom: 25px;
-	padding: 4px 20px;
-	font-family: "Open Sans",sans-serif;
-	font-size: 19px;
-	color: #3E3E3E;
-	font-weight: 300;
-	line-height: 40px;
-  padding-top 75px;
-}
-
-@media (min-width: 768px) {
-	header .intro-text .intro-lead-in {
-    font-size: 29px;
-    line-height: 40px;
-    /*margin-bottom: 45px;*/
-	}
-}
-
-header .intro-text .intro-heading {
+  font-family: "Roboto";
+  font-weight: 900;
 	text-transform: uppercase;
-	font-weight: 900;
-	font-size: 40px;
+}
+
+header .intro-heading {
+  font-family: Sanchez;
+	font-weight: 400;
+	font-size: 80px;
 	line-height: 48px;
 	/*margin-bottom: 25px;*/
 	letter-spacing: -3px;
 	word-spacing: 10px;
-	color: #FFFFFF;
+	color: #ff6461;
 	/*text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
 }
 
+/*Phone size*/
 @media (min-width: 768px) {
 	header .intro-text .intro-heading {
-		line-height: 95px;
-		font-size: 77px;
-		margin-bottom: 50px;
+		font-size: 20px;
 	}
 }
 
