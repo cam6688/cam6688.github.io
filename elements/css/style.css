@@ -232,10 +232,10 @@ header .pic {
   background-repeat:no-repeat;
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
   header .pic {
-    background-size: cover;
-    height: 400px;
+    background-size:contain;
+    height:400px;
   }
 }
 
