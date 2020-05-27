@@ -31,11 +31,6 @@ Import Google Fonts
 /* font for headings, text, tags */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800);
 
-@font-face {
-    font-family: butler;
-    src: url(https://cam6688.github.io/Butler_Black.otf);
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Sanchez&display=swap');
 
 /*--------------------
@@ -44,7 +39,7 @@ Import Google Fonts
 
 body {
 	margin: 0px;
-	font-family: butler;
+	font-family: "Roboto";
 }
 
 h1,
@@ -221,7 +216,6 @@ section ul li:before {
 --------------------*/
 
 header {
-	background-image: url(../images/demo/bg-sanza.jpg);
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center center;
@@ -241,21 +235,20 @@ header .intro-text {
 }
 
 header .intro-heading {
-  font-family: Sanchez;
-	font-weight: 400;
+  margin-top: 40px;
+  font-family: "Sanchez";
 	font-size: 80px;
 	line-height: 48px;
-	/*margin-bottom: 25px;*/
-	letter-spacing: -3px;
+	margin-bottom: 25px;
 	word-spacing: 10px;
 	color: #ff6461;
 	/*text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
 }
 
 /*Phone size*/
-@media (max-width: 700px) {
+@media (max-width: 768px) {
 	header .intro-text .intro-heading {
-		font-size: 20px;
+		font-size: 30px;
 	}
 }
 
@@ -775,15 +768,14 @@ font-size: 11px;
     letter-spacing: 2px;
     font-size: 16px;
     padding: 17px 45px;
-    opacity: 75;
-    max-width: 75%;
 }
 
-@media (max-width: 700px) {
-  .btn {
+@media (max-width: 768px) {
+  .btn-x1 {
     font-size: 10px;
     padding: 2px 5px;
     line-height: normal;
+    white-space: normal;
   }
 }
 /* Back to top button
