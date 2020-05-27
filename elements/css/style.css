@@ -253,7 +253,7 @@ header .intro-heading {
 }
 
 /*Phone size*/
-@media (min-width: 768px) {
+@media (max-width: 700px) {
 	header .intro-text .intro-heading {
 		font-size: 20px;
 	}
@@ -779,6 +779,13 @@ font-size: 11px;
     max-width: 75%;
 }
 
+@media (max-width: 700px) {
+  .btn {
+    font-size: 10px;
+    padding: 2px 5px;
+    line-height: normal;
+  }
+}
 /* Back to top button
 ---------------------------------- */
 #back-top {
