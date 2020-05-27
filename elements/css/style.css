@@ -215,7 +215,7 @@ section ul li:before {
 3. Header
 --------------------*/
 
-header {
+header .pic {
 	background-attachment: scroll;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -233,7 +233,7 @@ header {
 }
 
 @media (max-width:768px) {
-  #header {
+  .pic {
     background-size: cover;
     height: 400px;
   }
