@@ -226,16 +226,16 @@ header {
 	color: #fff;
   background-image:url(https://cam6688.github.io/newyearnewme.JPG);
   background-color:#404040;
-  height:800px;
+  height:900px;
   background-position:center;
   background-origin:border-box;
   background-repeat:no-repeat;
 }
 
 @media (max-width:768px) {
-  header {
+  #header {
     background-size: contain;
-    height: 200px;
+    height: 400px;
   }
 }
 
@@ -247,14 +247,14 @@ header .intro-text {
 }
 
 header .intro-heading {
-  margin-top: 40px;
+  margin-top: 50px;
   font-family: "Sanchez";
 	font-size: 80px;
 	line-height: 48px;
 	margin-bottom: 25px;
 	word-spacing: 10px;
 	color: #ff6461;
-	/*text-shadow: 1px 1px 1px rgb(0, 0, 0);*/
+	text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 /*Phone size*/
