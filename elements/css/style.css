@@ -56,9 +56,9 @@ h6 { /*obsolete*/
 
 p {
 	font-family: "Catamaran";
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 300;
-	line-height: 23px;
+	line-height: 1.4;
 	letter-spacing: 0.2px;
 	color: #797979;
 }
@@ -215,7 +215,7 @@ section ul li:before {
 3. Header
 --------------------*/
 
-.header {
+header {
 	background-attachment: scroll;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -233,20 +233,20 @@ section ul li:before {
 }
 
 @media (max-width:768px) {
-  .header {
+  header {
     background-size: contain;
     height: 200px;
   }
 }
 
-.header .intro-text {
+header .intro-text {
 	padding-top: 50px;
   font-family: "Roboto";
   font-weight: 900;
 	text-transform: uppercase;
 }
 
-.header .intro-heading {
+header .intro-heading {
   margin-top: 40px;
   font-family: "Sanchez";
 	font-size: 80px;
@@ -259,7 +259,7 @@ section ul li:before {
 
 /*Phone size*/
 @media (max-width: 768px) {
-	.header .intro-text .intro-heading {
+	header .intro-text .intro-heading {
 		font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;
