@@ -233,7 +233,7 @@ header .pic {
 }
 
 @media (max-width:768px) {
-  .pic {
+  header .pic {
     background-size: cover;
     height: 400px;
   }
