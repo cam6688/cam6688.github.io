@@ -215,8 +215,7 @@ section ul li:before {
 3. Header
 --------------------*/
 
-header {
-	background-repeat: none;
+.header {
 	background-attachment: scroll;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -225,16 +224,29 @@ header {
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff;
+  background-image:url(https://cam6688.github.io/newyearnewme.JPG);
+  background-color:#404040;
+  height:800px;
+  background-position:center;
+  background-origin:border-box;
+  background-repeat:no-repeat;
 }
 
-header .intro-text {
+@media (max-width:768px) {
+  .header {
+    background-size: contain;
+    height: 200px;
+  }
+}
+
+.header .intro-text {
 	padding-top: 50px;
   font-family: "Roboto";
   font-weight: 900;
 	text-transform: uppercase;
 }
 
-header .intro-heading {
+.header .intro-heading {
   margin-top: 40px;
   font-family: "Sanchez";
 	font-size: 80px;
@@ -247,7 +259,7 @@ header .intro-heading {
 
 /*Phone size*/
 @media (max-width: 768px) {
-	header .intro-text .intro-heading {
+	.header .intro-text .intro-heading {
 		font-size: 30px;
     margin-top: auto;
     margin-bottom: auto;
