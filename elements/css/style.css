@@ -79,9 +79,12 @@ a, a:hover, a:focus, a:active, a.active {
 	background: #e68785;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	section {
 		padding: 150px 0;
+	}
+	ul li {
+		color: #fff;
 	}
 }
 
