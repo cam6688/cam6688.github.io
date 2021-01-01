@@ -313,8 +313,8 @@ header .intro-heading {
 }
 
 @media screen and (max-width:768px) {
-	.section-title #p {
-		margin: 20px 25px 30px 25px;
+	.section-title p {
+		margin: 20px 5px 30px 5px;
 	}
 }
 
