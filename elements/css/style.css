@@ -80,11 +80,14 @@ a, a:hover, a:focus, a:active, a.active {
 }
 
 @media screen and (min-width: 768px) {
-	section {
-		padding: 150px 0;
+	ul {
+		padding-left: 0;
+		padding-top: 5px;
 	}
 	ul li {
 		color: #fff;
+		font-family: "Roboto";
+		padding-bottom: 5px;
 	}
 }
 
@@ -100,7 +103,7 @@ ul {
 ul li {
     list-style: none;
     padding-bottom: 10px;
-    font-family: aileron;
+    font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
@@ -109,7 +112,7 @@ ul li {
 }
 
 section ul li:before {
-	font-family: FontAwesome;
+	font-family: "Roboto";
 	font-weight: normal;
 	font-style: normal;
 	display: inline-block;
