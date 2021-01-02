@@ -175,7 +175,7 @@ section ul li:before {
 	background-color: #ffb3a7
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
 	.navbar-default
 	{
 		background-color: rgba(255, 255, 255, 0.65);
