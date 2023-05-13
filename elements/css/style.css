@@ -67,16 +67,19 @@ p {
 color: #B1B1B1;
 }
 
-a:hover, a:focus, a:active, a.active {
-	color: #ffb3a7;
+a {
+	color: #b089d1;
+	outline: 0;
 }
-a, a:hover, a:focus, a:active, a.active {
+a:hover, a:focus, a:active, a.active {
+	color: #d6c9f3;
 	outline: 0;
 }
 
+
 ::selection {
 	text-shadow: none;
-	background: #e68785;
+	background: #d6c9f3;
 }
 
 section {
@@ -107,7 +110,7 @@ section ul li:before {
 	text-decoration: inherit;
 	content: "\f105";
 	padding-right: 7px;
-	color: #23AD21;
+	color: #b089d1;
 }
 
 /*--------------------
@@ -138,20 +141,20 @@ section ul li:before {
 	padding: 0px;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active {
-	color: #ffb3a7
+	color: #d6c9f3;
 }
 .navbar-default .navbar-collapse {
 	border-color: rgba(255,255,255,.02)
 }
 .navbar-default .navbar-toggle {
-	background-color: #ffb3a7;
-	border-color: #ffb3a7;
+	background-color: #d6c9f3;
+	border-color: #d6c9f3;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus {
-	background-color: #e68785
+	background-color: #bba6e9
 }
 .navbar-default .nav li a {
 	font-family: "Roboto",sans-serif;
@@ -161,18 +164,18 @@ section ul li:before {
 	color:#fff;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-	color: #ffb3a7;
+	color: #d6c9f3;
 	outline: 0
 }
 
 .navbar-default .navbar-nav>.active>a {
 	border-radius: 0;
 	color: #fff;
-	background-color: #e68785
+	background-color: #bba6e9
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
 	color: #fff;
-	background-color: #ffb3a7
+	background-color: #d6c9f3
 }
 
 @media screen and (min-width:768px) {
@@ -211,7 +214,7 @@ section ul li:before {
 		color:#000;
 	}
 	.navbar-default .nav li a:hover,.navbar-default .nav li a:focus {
-		color: #ffb3a7;
+		color: #d6c9f3;
 		outline: 0
 	}
 }
@@ -364,12 +367,21 @@ header .intro-heading {
 	margin: 0 0 30px;
 	font-weight: 800;
 	color: #5D5D5D;
+	font-size: 35px;
 }
 
 .section-text h4 {
     margin: 0 0 20px;
     font-weight: 700;
     font-size: 17px;
+}
+
+.section-text p {
+	font-size: 20px;
+}
+
+.section-text ul li {
+	font-size: 20px;
 }
 
 .dark-bg .section-text h3 {
