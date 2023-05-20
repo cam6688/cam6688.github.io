@@ -33,7 +33,7 @@ Import Google Fonts
 
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Sanchez&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 /*--------------------
 1. General
@@ -106,6 +106,7 @@ ul li {
 
 section ul li:before {
 	font-family: "Roboto";
+	list-style-type: circle;
 	font-weight: normal;
 	font-style: normal;
 	display: inline-block;
@@ -258,7 +259,7 @@ header .intro-text {
 
 header .intro-heading {
   margin-top: 50px;
-  font-family: "Montserrat";
+  font-family: "Montserrat",sans-serif;
 	font-size: 80px;
 	line-height: 48px;
 	margin-bottom: 25px;
