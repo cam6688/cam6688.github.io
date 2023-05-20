@@ -94,7 +94,7 @@ ul {
 }
 
 ul li {
-    list-style: none;
+    list-style: circle;
     padding-bottom: 10px;
     font-family: "Roboto";
     font-size: 14px;
